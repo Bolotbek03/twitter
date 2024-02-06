@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+body {
+  margin: 0;
+  overflow-y: hidden;
+}
+
+.panel-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 500px;
+  height: 100vh;
+  padding: 10px;
+  overflow-y: auto;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.twitter-logo-container {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.twitter-logo {
+  width: 40px;
+  height: auto;
+}
+.twitter-logo:hover {
+  background-color: #373636;
+  border-radius: 50%;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 999px;
+  transition: background-color 0.3s ease;
+  max-height: 20px;
+  width: 200px;
+}
+
+.menu-item:hover {
+  background-color: #253341;
+}
+
+.icon-container {
+  margin-right: 10px;
+}
+
+.menu-icon {
+  width: 30px;
+  height: auto;
+}
+
+.menu-text h5 {
+  margin: 0;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.post-container {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+.post-item {
+  width: 100%;
+  height: 40px;
+}
+.post-button {
+  border-color: rgba(0, 0, 0, 0);
+  background-color: rgb(29, 155, 240);
+  border-radius: 16px;
+  height: 50px;
+  margin-top: 8px;
+  width: 50%;
+  border-radius: 30px;
+}
+
+.info-my-profile {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  color: white;
+  font-size: 12px;
+}
+
+.info-my-profile img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+.profile-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px; /* Adjust the margin as needed */
+  padding: 10px;
+  margin-top: 40px;
+}
+
+.img-container {
+  width: 40px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.name-container {
+  margin: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 16px; /* Adjust the font size as needed */
+}
+.name-container p {
+  margin: 0;
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.name-container span {
+  margin: 0;
+  color: white;
+  font-weight: 200;
+  font-size: 15px;
+  color: #a6a6a6;
+  font-family: "Roboto", sans-serif;
+}
