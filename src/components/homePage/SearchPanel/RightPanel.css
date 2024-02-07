@@ -1,0 +1,20 @@
+.right-panel {
+  width: 300px;
+  position: sticky;
+  top: 2px;
+  padding: 16px;
+}
+
+.search-box {
+  margin-bottom: 16px;
+}
+
+.premium-subscription,
+.trends {
+  margin-bottom: 16px;
+}
+
+.follow-content-container {
+  display: flex;
+  justify-content: flex-end;
+}

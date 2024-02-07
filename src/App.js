@@ -1,12 +1,11 @@
 import React from "react";
 import MainRoutes from "./routes/MainRoutes";
-import Panel from "./components/homePage/Panel";
-// import Panel from "./components/homePage/Panel";
+import RightPanel from "./components/homePage/SearchPanel/RightPanel";
 
 const App = () => {
   return (
     <div>
-      {/* <Panel /> */}
+      {/* <RightPanel /> */}
       <MainRoutes />
     </div>
   );

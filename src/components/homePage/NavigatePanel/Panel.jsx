@@ -1,16 +1,16 @@
 import React, { useEffect } from "react";
-import home from "../../image/Home.svg";
-import search from "../../image/iconSearch.svg";
-import notification from "../../image/Notification.svg";
-import messages from "../../image/Message.svg";
-import lists from "../../image/lists.svg";
-import communities from "../../image/communities.svg";
-import twitter from "../../image/twitter.svg";
-import premium from "../../image/premium.svg";
-import profile from "../../image/Profile.svg";
-import more from "../../image/More.svg";
+import home from "../../../image/Home.svg";
+import search from "../../../image/iconSearch.svg";
+import notification from "../../../image/Notification.svg";
+import messages from "../../../image/Message.svg";
+import lists from "../../../image/lists.svg";
+import communities from "../../../image/communities.svg";
+import twitter from "../../../image/twitter.svg";
+import premium from "../../../image/premium.svg";
+import profile from "../../../image/Profile.svg";
+import more from "../../../image/More.svg";
 import "./Panel.css";
-import { useAuth } from "../../context/AuthContextProvider";
+import { useAuth } from "../../../context/AuthContextProvider";
 import { useNavigate } from "react-router-dom";
 
 const Panel = () => {
