@@ -2,9 +2,8 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Register from "../components/auth/Register";
 import Login from "../components/auth/Login";
-import Panel from "../components/homePage/NavigatePanel/Panel";
 import Explore from "../components/content/Menu/Explore/Explore";
-import Home from "../components/homePage/Home/Home";
+import Home from "../components/content/Menu/Home";
 import Notification from "../components/content/Menu/Notification/Notification";
 import Message from "../components/content/Menu/Message/Message";
 import Lists from "../components/content/Menu/Lists/Lists";
@@ -15,11 +14,8 @@ const MainRoutes = () => {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/menu" element={<Panel />} />
       <Route path="/register" element={<Register />} />
-      <Route path="/home" element={<Home />} />
       <Route path="/login" element={<Login />} />
-      <Route path="/explore" element={<Explore />} />
       <Route path="/explore" element={<Explore />} />
       <Route path="/notification" element={<Notification />} />
       <Route path="/message" element={<Message />} />

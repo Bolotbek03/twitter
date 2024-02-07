@@ -1,11 +1,11 @@
 import React from "react";
 import MainRoutes from "./routes/MainRoutes";
-import RightPanel from "./components/homePage/SearchPanel/RightPanel";
+import Panel from "./NavigatePanel/Panel";
 
 const App = () => {
   return (
     <div>
-      {/* <RightPanel /> */}
+      <Panel />
       <MainRoutes />
     </div>
   );

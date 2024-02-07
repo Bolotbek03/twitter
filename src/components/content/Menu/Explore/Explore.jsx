@@ -1,11 +1,8 @@
 import React from "react";
+import "./Explore.css";
 
 const Explore = () => {
-  return (
-    <div>
-      <h1>sdfklsjkdf</h1>
-    </div>
-  );
+  return <div></div>;
 };
 
 export default Explore;

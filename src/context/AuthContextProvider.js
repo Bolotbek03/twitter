@@ -13,7 +13,7 @@ const AuthContextProvider = ({ children }) => {
   //! Регистрация
   const handleRegister = async (formData) => {
     try {
-      await axios.post(`${API}/api/users/`, formData);
+      await axios.post(`${API}/api/register/`, formData);
       navigate("/login");
     } catch (error) {
       console.error("Ошибка регистрации:", error.response);
@@ -23,16 +23,15 @@ const AuthContextProvider = ({ children }) => {
   //! Логин
   const handleLogin = async (formData, email) => {
     try {
-      const res = await axios.post(`${API}/api/auth/token/login/`, formData);
+      const res = await axios.post(`${API}/api/login/`, formData);
       localStorage.setItem("email", email);
       navigate("/");
       setUser(email);
-      navigate("/home");
+      navigate("/");
     } catch (error) {
       setError(Object.values(error.response.data));
     }
   };
-
   const values = { handleRegister, error, handleLogin, user };
   return <authContext.Provider value={values}>{children}</authContext.Provider>;
 };

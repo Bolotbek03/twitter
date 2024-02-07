@@ -1,7 +1,12 @@
 import React from "react";
+import Panel from "../../../../NavigatePanel/Panel";
 
 const Message = () => {
-  return <div></div>;
+  return (
+    <div>
+      <Panel />
+    </div>
+  );
 };
 
 export default Message;
